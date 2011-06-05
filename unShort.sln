@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unShort", "unShort\unShort.csproj", "{4CAF0156-42C2-445D-AFE1-7B879D0B439C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unShort", "unShort\unShort.csproj", "{41242E35-090F-49AD-B3B0-3A936F2FCA83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CAF0156-42C2-445D-AFE1-7B879D0B439C}.Debug|x86.ActiveCfg = Debug|x86
-		{4CAF0156-42C2-445D-AFE1-7B879D0B439C}.Debug|x86.Build.0 = Debug|x86
-		{4CAF0156-42C2-445D-AFE1-7B879D0B439C}.Release|x86.ActiveCfg = Release|x86
-		{4CAF0156-42C2-445D-AFE1-7B879D0B439C}.Release|x86.Build.0 = Release|x86
+		{41242E35-090F-49AD-B3B0-3A936F2FCA83}.Debug|x86.ActiveCfg = Debug|x86
+		{41242E35-090F-49AD-B3B0-3A936F2FCA83}.Debug|x86.Build.0 = Debug|x86
+		{41242E35-090F-49AD-B3B0-3A936F2FCA83}.Release|x86.ActiveCfg = Release|x86
+		{41242E35-090F-49AD-B3B0-3A936F2FCA83}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
