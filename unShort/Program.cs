@@ -17,6 +17,11 @@ namespace unShort
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            while (true)
+            {
+
+            }
         }
 
         static void unShorten(String link)
