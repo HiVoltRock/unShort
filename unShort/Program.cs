@@ -12,15 +12,22 @@ namespace unShort
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+
         [STAThread]
         static void Main()
         {
+            ToolTip urlTip = new ToolTip();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            
             while (true)
             {
+                Cursor cursor = System.Windows.Forms.Cursor.Current; //need to declare cursor to check state...of course
+                if (cursor == (Cursors.Hand)) //checks to see if cursor is a hand, i.e., a URL
+                {
 
+                    
+                }
             }
         }
 
