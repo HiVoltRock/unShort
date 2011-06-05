@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.Net;
+
 
 namespace unShort
 {
@@ -15,7 +17,17 @@ namespace unShort
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+        }
+
+        static void unShorten(String link)
+        {
+            //makes an http request and looks at the response as the unshortened URL (URI)
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            String url = request.Address.ToString();
+
+            Console.WriteLine("URL is: \n" + url);
+            Console.ReadLine();
         }
     }
 }
