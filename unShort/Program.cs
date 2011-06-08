@@ -35,6 +35,7 @@ namespace unShort
         {
             //makes an http request and looks at the response as the unshortened URL (URI)
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
+            request.Proxy = null;
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             String url = request.Address.ToString();
 
